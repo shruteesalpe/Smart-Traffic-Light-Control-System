@@ -1,10 +1,10 @@
-# 🚦 Smart Traffic Light Control System using YOLO
+# Smart Traffic Light Control System using YOLO
 
 This project implements an **AI-powered smart traffic light system** that dynamically controls signal timings using **real-time vehicle detection**. It eliminates unnecessary red light wait times by detecting traffic presence using the **YOLO object detection algorithm**.
 
 ---
 
-## 🎯 Objective
+# Objective
 
 To reduce traffic congestion and improve fuel efficiency by:
 - Automatically extending green signals when traffic is detected.
@@ -12,17 +12,17 @@ To reduce traffic congestion and improve fuel efficiency by:
 
 ---
 
-## 📌 Key Features
+# Key Features
 
-- 🧠 **YOLO-based vehicle detection** (cars, bikes, buses, trucks, etc.)
-- ⚙️ Real-time decision logic for traffic light control
-- 📈 Optimized green/red light durations based on detected traffic
-- 🚫 No traffic = no red signal delay
-- 🎥 Works with live video or pre-recorded footage
+- **YOLO-based vehicle detection** (cars, bikes, buses, trucks, etc.)
+- Real-time decision logic for traffic light control
+- Optimized green/red light durations based on detected traffic
+- No traffic = no red signal delay
+- Works with live video or pre-recorded footage
 
 ---
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 - **Python 3.x**
 - **OpenCV** – For video capture and frame processing
@@ -30,7 +30,7 @@ To reduce traffic congestion and improve fuel efficiency by:
 - **NumPy** – Array operations
 ---
 
-## 🗂️ Project Structure
+# Project Structure
 smart-traffic-light/
 │
 ├── yolo-cfg/ # YOLO model config and weights
@@ -51,7 +51,7 @@ smart-traffic-light/
 
 ---
 
-## 🔍 How It Works
+# How It Works
 
 1. Load YOLO model with pre-trained weights
 2. Read frames from video or live webcam
@@ -64,16 +64,24 @@ smart-traffic-light/
 6. Display updated signal status and bounding boxes
 7. Repeat...
 
-📚 Dataset Used
+# Dataset Used
 YOLO pre-trained on COCO dataset
 Detects: car, bus, truck, motorcycle, bicycle, etc.
 
-📌 Future Improvements
+# Future Improvements
 Integrate with Raspberry Pi or Arduino for real-world deployment
 Add emergency vehicle detection
 Use license plate recognition (ALPR) for rule enforcement
 Log traffic density data for smart city analytics
 
-Contact
-Jayesh Gawde
-Gmail:- jayeshgawde2113@gmail.com
+---
+
+# Authors
+
+*1. Jayesh Gawde*
+
+*2. Shrutee Salpe* 
+
+*3. Parth Gupta* 
+
+---
